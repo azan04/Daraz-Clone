@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<nav class="navbar navbar-expand-sm bg-light justify-content-center" style = "height: 24px; background-color: black;">
+    <style>
+        .nav-link
+        {
+            color: black;
+            font-size: 82%;
+        }
+    </style>
+    <ul class="navbar-nav">           <!--To show header-->
+      <li class="nav-item">
+        <a class="nav-link" href="https://play.google.com/store/apps/details?id=com.daraz.android&hl=en&gl=US" style = "color: rgb(255, 94, 0)">SAVE MORE ON APP</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">DARAZ AFFILIATE PROGRAM</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">SELL ON DARAZ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CUSTOMER CARE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">TRACK MY ORDER</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Login.html">LOGIN</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Signup.html">SIGNUP</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">زبان تبدیل کریں</a>
+      </li>
+    </ul>
+  </nav>
+  
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">                                                       <!--To include bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Website</title>
+</head>
+<body style = "background-color: rgb(245, 245, 245);">
+    <div style = "background-color: white;" class="topnav">
+        <div class="search-container">
+            <a href="Website.html"><img style  = "padding-left: 150px;;" src="images/1.png" alt="" style = "height: 60px; width: 150px"></a>
+            <a><img style  = "padding-left: 150px;"  src="" alt=""></a>
+            <a><input style="width: 500px; height: 45px; background-color: rgb(249, 249, 249); border: none;" type="text" placeholder="Search in Daraz" name="search"></a>
+            <a><img style  = "padding-left: 0px; height: 50px; width: 50px;" src="images/Search.png" alt=""></a>
+            <a style  = "padding-left: 50px;" href="Cart.html"><img src="images/4.png" alt=""></a>
+            <a href="https://play.google.com/store/apps/details?id=com.daraz.android&hl=en&gl=US"><img style  = "padding-left: 60px; height: 48px; width: 245px;" src="images/Offers.png" alt=""></a>
+        </div>
+    </div>
+    <div><img style = "width: 1500px;" src="images/Header.png" alt=""></div>
+    <div style = "padding-left: 180px; padding-top: 50px;">
+      <a href="Mart.html"><img src="images/Mart.png"></a>
+      <a href="Men.html"><img style = "padding-left: 100px;" src="images/Mens.png"></a>
+      <a href="Women.html"><img style = "padding-left: 100px" src="images/Mart1.png"></a>
+    </div>
+    <h4 style="padding-left: 150px; padding-top: 60px; color: gray;">Flash Sale</h4>
+    <div><img style = "height: 50px; padding-left: 150px;" src="images/SaleTimer.png" alt=""></div>
+    <div style="padding-left: 150px;">
+      <a><img style = "height: 300px;" src="images/sale1.png" alt=""></a>
+      <a><img style = "height: 300px; padding-left: 20px;" src="images/sale2.png" alt=""></a>
+      <a><img style = "height: 300px; padding-left: 20px;" src="images/Sale3.png" alt=""></a>
+      <a><img style = "height: 300px; padding-left: 20px;" src="images/Sale4.png" alt=""></a>
+      <a><img style = "height: 300px; padding-left: 20px;" src="images/Sale5.png" alt=""></a>
+      <a><img style = "height: 300px; padding-left: 20px;" src="images/Sale6.png" alt=""></a>
+    </div>
+    <h4 style="padding-left: 150px; padding-top: 100px; color: black;">Just for you</h4>
+    <div style="padding-left: 150px;">
+      <a><img style = "height: 300px;" src="images/product1.png" alt=""></a>
+      <a><img style = "height: 300px; padding-left: 20px;" src="images/product2.png" alt=""></a>
+      <a><img style = "height: 300px; padding-left: 20px;" src="images/product3.png" alt=""></a>
+      <a><img style = "height: 300px; padding-left: 20px;" src="images/product4.png" alt=""></a>
+      <a><img style = "height: 300px; padding-left: 20px;" src="images/product5.png" alt=""></a>
+      <a><img style = "height: 300px; padding-left: 20px;" src="images/product6.png" alt=""></a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div style = "background-color: #2e2e54; padding-left: 500px">              <!--To display footer-->
+      <img style = "height: 100px; width: 100px"  src="images/QR.png">
+      <img style = "padding-left: 50px;" src="images/HappyShopping.png">
+      <br>
+      <a href="https://apps.apple.com/app/id978058048?scm=1003.4.icms-zebra-5029545-2832850.OTHER_5370750400_2485531&spm=a2a0e.home.footer_top.22.6a274937Sbygmx"><img style = "height: 50px; width: 150px" src="images/AppStore.png"></a>
+      <a href="https://play.google.com/store/apps/details?id=com.daraz.android&hl=en&gl=US"><img style = "height: 50px; width: 150px" src="images/PlayStore.png"></a>
+      <a href="https://appgallery.huawei.com/?spm=a2a0e.home.footer_top.24.6a274937Sbygmx&scm=1003.4.icms-zebra-5029545-2832850.OTHER_5370750400_2485531#/app/C100948133"><img style = "height: 50px; width: 150px" src="images/AppGalery.png"></a>   
+    </div>
+</body>
+</html>
